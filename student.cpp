@@ -20,13 +20,11 @@ int student::count()
 
 	int count{};
 	while (input)
-	{
 		getline(input, line);
 		count++;
-	}
 
 	input.close();
-	count = count - 1;
+	count--;
 	return count;
 }
 void student::set_date()
@@ -46,9 +44,7 @@ void student::is_present()
 	input.open("C:/Users/Roger/Documents/students.txt");
 
 	if (!input)
-	{
 		cout << "error!";
-	}
 	
 	for (int i = 0; i < count(); i++)
 	{
@@ -59,7 +55,6 @@ void student::is_present()
 		v_name.push_back(s_name);
 	}
 	input.close();
-//	
 }
 
 
@@ -82,11 +77,7 @@ void student::output_attendance(int x)
 			{
 				cout << "Please enter a valid input!"<< endl << endl;
 				output.close();
-				//cout <<c<<endl<< count()<<endl;
-				//system("pause");
-
 				invalid(c, count());
-				
 				break;
 			}
 	}
@@ -96,7 +87,6 @@ void student::invalid(int vector_start, int iterator)
 {
 	ofstream output;
 	output.open("C:/Users/Roger/Desktop/attendance.txt", ios::app);
-	//system("pause");
 	for (static int i = vector_start; i < iterator; i++)
 	{
 		cout << v_name[i] << ": ";
@@ -109,8 +99,6 @@ void student::invalid(int vector_start, int iterator)
 		else if (present != "A" || present != "a" || present != "H" || present != "h")
 		{
 			cout << "Please enter a valid input!" << endl << endl;
-			//cout << count() << endl << c << endl << i << endl << iterator << endl;
-			//system("pause");
 			output.close();
 			invalid(c, count());
 		}
