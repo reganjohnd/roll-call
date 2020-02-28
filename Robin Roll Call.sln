@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robin Roll Call", "Robin Roll Call.vcxproj", "{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RobinRocllCallSetup", "..\RobinRocllCallSetup\RobinRocllCallSetup.vdproj", "{9ED6802D-0625-48A4-B752-2F8A282F120F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Debug|x64.ActiveCfg = Debug|x64
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Debug|x64.Build.0 = Debug|x64
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Debug|x86.ActiveCfg = Debug|Win32
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Debug|x86.Build.0 = Debug|Win32
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Release|x64.ActiveCfg = Release|x64
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Release|x64.Build.0 = Release|x64
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Release|x86.ActiveCfg = Release|Win32
+		{3AEFDF8E-2396-4DC5-8FB5-42A0A1CB5516}.Release|x86.Build.0 = Release|Win32
+		{9ED6802D-0625-48A4-B752-2F8A282F120F}.Debug|x64.ActiveCfg = Debug
+		{9ED6802D-0625-48A4-B752-2F8A282F120F}.Debug|x64.Build.0 = Debug
+		{9ED6802D-0625-48A4-B752-2F8A282F120F}.Debug|x86.ActiveCfg = Debug
+		{9ED6802D-0625-48A4-B752-2F8A282F120F}.Release|x64.ActiveCfg = Release
+		{9ED6802D-0625-48A4-B752-2F8A282F120F}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20B0B6DA-82A2-463B-B2A4-741BE4BDA640}
+	EndGlobalSection
+EndGlobal
