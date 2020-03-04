@@ -1,7 +1,4 @@
 #pragma once
-#include <string>
-#include <iostream>
-using namespace std;
 
 class student
 {
@@ -11,4 +8,10 @@ public:
 	static int count();
 	static void set_date();
 	static void invalid(int vector_start, int iterator);
+
+	static void add_student();
+
+	static void delete_student();
+
+	static void view_students();
 };
